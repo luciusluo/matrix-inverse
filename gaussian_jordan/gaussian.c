@@ -25,9 +25,9 @@ bool check_nonzero_row(int current, int dim, double** mat){
 double** REF(int dim, double** mat){
     // construct augmented matrix  
     // by concatenanting identity matrix to the right of mat
-    //  i.e.: {7 9 3 1 0 0}
-    //        {4 6 8 0 1 0}
-    //        {5 2 5 0 0 1}
+    // i.e.: {7 9 3 1 0 0}
+    //       {4 6 8 0 1 0}
+    //       {5 2 5 0 0 1}
     double** new = mat_zeros(dim,2*dim);
     copy_mat(dim, dim, new, mat);
 
