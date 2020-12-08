@@ -1,7 +1,7 @@
 /* 
 Author: Yuxiao Luo
 - This code is an implementation of how Gaussian-Jordan Elimination 
-  can be used to find the inverse of a invertible matrix. 
+  can be used to find the inverse of an invertible matrix. 
 - The description of the algorithm is found here: 
   https://www.math.purdue.edu/~shao92/documents/Algorithm%20REF.pdf
 */
